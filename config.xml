@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kvkpathankot" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>KVK Pathankot</name>
-    <description>Official App for KVK Pathankot</description>
+<widget id="com.kvkgurdaspur" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>KVK Gurdaspur</name>
+    <description>Official App for KVK Gurdaspur</description>
     <author email="atinder777@gmail.com" href="http://agriexams.com/">AgriExams</author>
     <content src="index.html" />
     <access origin="*" />
