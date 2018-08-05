@@ -4,4 +4,4 @@ export const STAFF_PLACEHOLDER = "assets/images/staff_placeholder.jpeg";
 
 export const EVENTS_PLACEHOLDER = "assets/images/placeholder_activities.jpeg";
 
-export const URL_ENGLISH = "http://kvkpathankot.com/wp-json/wp/v2";
+export const URL_ENGLISH = "http://kvkpathankot.com/gurdaspur/wp-json/wp/v2";

@@ -12,7 +12,7 @@ export class PostProvider {
 	 * @returns {Array} Returns an array of news.
 	 */
 	getNews() {
-		return this.http.get(`${URL_ENGLISH}/posts?categories=3?per_page=100`);
+		return this.http.get(`${URL_ENGLISH}/posts?categories=3&per_page=100`);
 	}
 
 	/**
@@ -26,7 +26,7 @@ export class PostProvider {
 	 * @returns {Array} Returns an array of news.
 	 */
 	getActivities() {
-		return this.http.get(`${URL_ENGLISH}/posts?categories=17?per_page=100`);
+		return this.http.get(`${URL_ENGLISH}/posts?categories=17&per_page=100`);
 	}
 
 	/**
