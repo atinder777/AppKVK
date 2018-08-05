@@ -1,0 +1,31 @@
+<ion-content>
+
+  <ion-grid no-padding>
+    <ion-row *ngIf="news.data">
+      <ion-col col-12>
+        <!-- Header List Big Image -->
+        <ion-list-header header-section no-margin>
+          <h1 header-title text-capitalize>{{'news.main_title'| translate}}</h1>
+        </ion-list-header>
+        <ion-list no-margin>
+          <div *ngIf="showNoNews" no-margin>
+            <h2 header-title text-capitalize>{{'news.no_data' | translate}}</h2>
+          </div>
+          <ul no-margin no-padding>
+            <li *ngFor="let post of news.data" (tap)="openPost(post)">
+              <div>
+                <ion-item border no-lines [ngClass]="post.animateClass">
+                  <ion-thumbnail item-start>
+                    <img *ngIf="post.backgroundImage" [src]="post.backgroundImage" />
+                  </ion-thumbnail>
+                  <h2 item-title text-wrap *ngIf="post.title">{{post.title.rendered}}</h2>
+                  <!-- <h3 item-subtitle text-wrap *ngIf="post.excerpt" [innerHTML]="post.excerpt.rendered"></h3> -->
+                </ion-item>
+              </div>
+            </li>
+          </ul>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

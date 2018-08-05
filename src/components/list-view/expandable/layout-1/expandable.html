@@ -1,0 +1,32 @@
+<!-- Theme Expandable- List big image -->
+<ion-content>
+  <ion-grid no-padding *ngIf="data != null">
+    <ion-row>
+      <ion-col col-12>
+        <!-- Header List Big Image -->
+        <ion-list-header header-section no-margin>
+          <h1 header-title text-capitalize>{{data.header}}</h1>
+        </ion-list-header>
+        <ion-list no-margin>
+          <ul collapsible no-margin no-padding>
+            <li *ngFor="let group of data.items" (click)="onEvent('onItemClick', group, $event)">
+              <!-- List big image Header -->
+              <div>
+                <ion-item border no-lines>
+                  <ion-thumbnail item-start>
+                    <img [src]="group.image" alt="{{group.title}}" />
+                  </ion-thumbnail>
+                  <h2 item-title>{{group.title}}</h2>
+                  <h3 item-subtitle text-wrap [innerHTML]="group.description"></h3>
+                </ion-item>
+              </div>
+              <!-- End List big image Header -->
+              <!-- List big image Body -->
+
+            </li>
+          </ul>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

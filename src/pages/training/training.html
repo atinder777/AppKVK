@@ -1,0 +1,22 @@
+<ion-header *ngIf="showMenu">
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon class="icon-menu" name="menu"></ion-icon>
+		</button>
+
+		<ion-navbar>
+			<ion-title>{{'training.main_title' | translate}}</ion-title>
+		</ion-navbar>
+	</ion-navbar>
+</ion-header>
+<ion-content>
+	<ion-list-header header-section no-margin>
+		<h1 header-title text-capitalize>{{'training.main_title'| translate}}</h1>
+	</ion-list-header>
+	<ion-list no-margin *ngIf="data">
+		<ion-item [ngClass]="item.animateClass" border no-lines *ngFor="let item of data" (tap)="openTrainings(item.id)">
+			<span item-start>{{item.month}}</span>
+			<i icon-small item-end class="icon icon-calendar"></i>
+		</ion-item>
+	</ion-list>
+</ion-content>

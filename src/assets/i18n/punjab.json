@@ -1,0 +1,109 @@
+{
+	"home": {
+		"main_title": "ਮੁੱਖ ਪੰਨਾ"
+	},
+	"news": {
+		"main_title": "ਸੂਚਨਾਵਾਂ",
+		"no_data": "ਕੋਈ ਵੇਰਵੇ ਉਪਲਬਧ ਨਹੀਂ ਹਨ"
+	},
+	"post": { "main_title": "ਵੇਰਵੇ" },
+	"seed": {
+		"main_title": "ਉਪਲਬਧ ਬੀਜ",
+		"header": "ਉਪਲਬਧ ਬੀਜ",
+		"title": "ਫਸਲ਼",
+		"variety": "ਕਿਸਮ",
+		"packaging": "ਥੈਲੀ ਦਾ ਵਜ਼ਨ (ਕਿੱਲੋ)",
+		"price": "ਕੀਮਤ ਪ੍ਰਤੀ ਕਿੱਲੋ (ਰੂਪਏ)"
+	},
+	"events": {
+		"main_title": "ਗਤੀਵਿਧੀਆਂ",
+		"details": "ਵੇਰਵੇ",
+		"read_more": "ਵਿਸਥਾਰ ਵੇਰਵੇ"
+	},
+	"settings": { "main_title": "ਸੈਟਿੰਗਾਂ", "push": "ਐਪ ਵੱਲੋਂ ਸੂਚਨਾਵਾਂ", "language": "ਭਾਸ਼ਾ ਚੁਣੋ" },
+	"about": {
+		"main_title": "ਕੇ. ਵੀ. ਕੇ ਬਾਰੇ",
+		"h1": "ਕੇ. ਵੀ. ਕੇ ਬਾਰੇ"
+	},
+	"contact": {
+		"main_title": "ਸੰਪਰਕ ਕਰੋ",
+		"contact_us": "ਸੰਪਰਕ ਕਰੋ",
+		"here": "ਪਤਾ"
+	},
+	"faculty": {
+		"main_title": "ਸਟਾਫ਼",
+		"header": "ਸਟਾਫ਼",
+		"designation": "ਅਹੁਦਾ",
+		"discipline": "ਵਿਸ਼ਾ"
+	},
+	"more": {
+		"seed": "ਉਪਲਬਧ ਬੀਜ",
+		"faculty": "ਸਟਾਫ਼",
+		"settings": "ਸੈਟਿੰਗਾਂ",
+		"contact": "ਸੰਪਰਕ ਕਰੋ",
+		"about": "ਕੇ. ਵੀ. ਕੇ. ਬਾਰੇ",
+		"weather": "ਮੌਸਮ ਦੀ ਜਾਣਕਾਰੀ",
+		"market": "ਮੰਡੀਆਂ ਦੇ ਭਾਅ",
+		"farmer": "ਕਿਸਾਨਾਂ ਲਈ ਜਾਣਕਾਰੀ",
+		"crop": "ਫਸਲਾਂ ਦੀ ਰਹਿੰਦ-ਖੂੰਹਦ ਦਾ ਪ੍ਰਬੰਧ",
+		"form": "ਸਲਾਹ ਲੈਣ ਲਈ ਫਸਲ਼ ਦੀ ਫੋਟੋ ਭੇਜੋ",
+		"feedback": "ਆਪਣੇ ਵਿਚਾਰ ਦਿਓ",
+		"whatsapp": "ਵਾਅਟਸਐਪ ਗਰੁੱਪ ਨਾਲ ਜੁੜੋ"
+	},
+	"training": {
+		"main_title": "ਸਿਖਲਾਈ ਸਮਾਂਸੂਚੀ"
+	},
+	"training_grid": {
+		"main_title": "ਸਿਖਲਾਈ"
+	},
+	"training_details": {
+		"main_title": "ਸਿਖਲਾਈ ਦੇ ਵੇਰਵੇ",
+		"header": "ਸਿਖਲਾਈ ਦੇ ਵੇਰਵੇ",
+		"discipline": "ਵਿਸ਼ਾ",
+		"date": "ਤਾਰੀਖ",
+		"nature": "ਕਿਸ ਲਈ ਢੁਕਵਾਂ",
+		"pnumber": "ਸਹਿਭਾਗੀਆਂ ਦੀ ਗਿਣਤੀ",
+		"venue": "ਸਥਾਨ",
+		"agency": "ਪ੍ਰਬੰਧ",
+		"details": "ਵੇਰਵੇ",
+		"no_training": "ਕੋਈ ਵੇਰਵੇ ਉਪਲਬਧ ਨਹੀਂ ਹਨ"
+	},
+	"training_post": {
+		"main_title": "ਸਿਖਲਾਈ ਦੇ ਵੇਰਵੇ",
+		"header": "ਸਿਖਲਾਈ ਦੇ ਵੇਰਵੇ",
+		"discipline": "ਵਿਸ਼ਾ",
+		"date": "ਤਾਰੀਖ",
+		"nature": "ਕਿਸ ਲਈ ਢੁਕਵਾਂ",
+		"pnumber": "ਸਹਿਭਾਗੀਆਂ ਦੀ ਗਿਣਤੀ",
+		"venue": "ਸਥਾਨ",
+		"agency": "ਪ੍ਰਬੰਧ",
+		"details": "ਵੇਰਵੇ"
+	},
+	"weather": {
+		"main_title": "ਮੌਸਮ ਦੀ ਜਾਣਕਾਰੀ"
+	},
+	"crop": {
+		"main_title": "ਫਸਲਾਂ ਦੀ ਰਹਿੰਦ-ਖੂੰਹਦ ਦਾ ਪ੍ਰਬੰਧ"
+	},
+	"form-picture": {
+		"main_title": "ਸਲਾਹ ਲੈਣ ਲਈ ਫਸਲ਼ ਦੀ ਫੋਟੋ ਭੇਜੋ",
+		"name": "ਤੁਹਾਡਾ ਨਾਮ",
+		"phone": "ਫੋਨ ਨੰਬਰ",
+		"send": "ਭੋਜੋ"
+	},
+	"feedback": {
+		"main_title": "ਆਪਣੇ ਵਿਚਾਰ ਦਿਓ",
+		"name": "ਨਾਮ",
+		"phone": "ਫੋਨ ਨੰਬਰ",
+		"feedback-message": "ਤੁਹਾਡੇ ਵਿਚਾਰ",
+		"send": "ਭੇਜੋ"
+	},
+	"form-validations": {
+		"name-required": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਨਾਮ ਭਰੋ",
+		"phone-required": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਫੋਨ ਨੰਬਰ ਭਰੋ",
+		"message-required": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਵਿਚਾਰ ਲਿਖੋ"
+	},
+	"whatsapp": {
+		"main_title": "ਵਾਅਟਸਐਪ ਗਰੁੱਪ"
+	}
+}

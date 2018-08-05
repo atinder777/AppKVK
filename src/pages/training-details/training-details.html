@@ -1,0 +1,54 @@
+<!--
+  Generated template for the TrainingDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{'training_details.main_title'| translate}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid no-padding *ngIf="data != null">
+    <ion-row>
+      <ion-col col-12>
+        <!-- Header List Big Image -->
+        <ion-list-header header-section no-margin>
+          <h1 header-title text-capitalize>{{'training_details.header' | translate}}</h1>
+        </ion-list-header>
+        <h2 *ngIf="showNoTrainings" item-subtitle text-wrap>
+          <br>{{'training_details.no_training' | translate}}</h2>
+        <ion-list no-margin>
+          <ul no-margin no-padding>
+            <li *ngFor="let group of data;" [ngClass]="group.animateClass" (tap)="openTraining(group)">
+              <div collapsible-header>
+                <ion-item border no-lines>
+                  <ion-row no-padding no-margin>
+                    <ion-col no-padding no-margin>
+                      <h3 class="margin-top15" item-subtitle text-wrap>
+                        <span [innerHTML]="group.discipline"></span>
+                      </h3>
+                    </ion-col>
+                    <ion-col no-padding no-margin>
+                      <ion-badge *ngIf="group.date" badge-light item-end [innerHTML]="group.date"></ion-badge>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row no-padding no-margin>
+                    <ion-col no-padding no-margin>
+                      <h2 text-wrap [innerHTML]="group.title"></h2>
+                    </ion-col>
+                  </ion-row>
+                </ion-item>
+              </div>
+            </li>
+          </ul>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

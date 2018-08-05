@@ -1,0 +1,21 @@
+<!--Fist Screen-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon class="icon-menu" name="menu"></ion-icon>
+    </button>
+    <!-- <div buy *ngIf="isBuyButtonEnabled"> -->
+    <div>
+      <ion-title>{{ 'home.main_title' | translate}}</ion-title>
+    </div>
+    <!-- <ion-title>{{data.toolbarTitle}}</ion-title> -->
+  </ion-navbar>
+</ion-header>
+<!--Fist Screen Content-->
+<ion-content>
+
+  <div *ngIf="params.data">
+    <tabs-layout-1 [data]="params.data" [events]="params.events">
+    </tabs-layout-1>
+  </div>
+</ion-content>
