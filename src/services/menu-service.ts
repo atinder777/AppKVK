@@ -11,7 +11,7 @@ export class MenuService {
 
 	getId = (): string => "menu";
 
-	getTitle = (): string => "KVK Pathankot";
+	getTitle = (): string => "KVK Gurdaspur";
 
 	getAllThemes = (lang): Array<any> => {
 		if (lang == "en") {
@@ -97,7 +97,7 @@ export class MenuService {
 		return {
 			background: "assets/images/training_for_farmers.jpg",
 			image: "assets/images/app_icon.png",
-			title: "KVK Pathankot",
+			title: "KVK Gurdaspur",
 			description: "Punjab Agricultural University"
 		};
 	};
