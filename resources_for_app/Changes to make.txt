@@ -1,0 +1,14 @@
+﻿KVK 2 App:
+In contact us page:
+	Phone numbers to: 01874-220743, 9876610461
+	Change website to : http://www.kvkgurdaspur.com
+	Email to: kvkgurdaspur@gmail.com
+	Address: Civil Lines, Gurdaspur, Punjab 143521
+	Address in language 2: ਸਿਵਲ ਲਾਈਨਜ਼, ਗੁਰਦਾਸਪੁਰ, ਪੰਜਾਬ 143521
+	Map: https://goo.gl/maps/26eAxwzcQ462
+
+For all the forms, update send to email to kvkgurdaspur@gmail.com instead of previous email.
+
+KVK 1 App
+	Phone numbers are not added under contact us page.
+	Add 98723-54170.
